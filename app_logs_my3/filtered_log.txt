@@ -1,0 +1,64 @@
+﻿
+> 11-13 01:09:13.171 22793 22793 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:142)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+> 11-13 01:09:30.045 23422 23422 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:142)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+> 11-13 01:13:03.451 23984 23984 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:142)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+> 11-13 01:15:01.950 24092 24092 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:142)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+> 11-13 01:50:20.400 29002 29002 E AndroidRuntime: java.lang.RuntimeException: Cannot find implementation for com.egon.my3.data.database.AppDatabase. AppDatabase_Impl does not exist
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at androidx.room.Room.getGeneratedImplementation(Room.kt:58)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at androidx.room.RoomDatabase$Builder.build(RoomDatabase.kt:1351)
+> 11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at com.egon.my3.data.database.AppDatabase$Companion.getInstance(AppDatabase.kt:25)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at com.egon.my3.MainActivity$onCreate$1$1$1.invoke(MainActivity.kt:35)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at com.egon.my3.MainActivity$onCreate$1$1$1.invoke(MainActivity.kt:31)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:121)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+  11-13 01:50:20.400 29002 29002 E AndroidRuntime: 	at androidx.compose.material3.SurfaceKt$Surface$1.invoke(Surface.kt:126)
+> 11-13 01:50:26.943 29065 29065 E AndroidRuntime: java.lang.RuntimeException: Cannot find implementation for com.egon.my3.data.database.AppDatabase. AppDatabase_Impl does not exist
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at androidx.room.Room.getGeneratedImplementation(Room.kt:58)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at androidx.room.RoomDatabase$Builder.build(RoomDatabase.kt:1351)
+> 11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at com.egon.my3.data.database.AppDatabase$Companion.getInstance(AppDatabase.kt:25)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at com.egon.my3.MainActivity$onCreate$1$1$1.invoke(MainActivity.kt:35)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at com.egon.my3.MainActivity$onCreate$1$1$1.invoke(MainActivity.kt:31)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:121)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at androidx.compose.runtime.internal.ComposableLambdaImpl.invoke(ComposableLambda.kt:51)
+  11-13 01:50:26.943 29065 29065 E AndroidRuntime: 	at androidx.compose.material3.SurfaceKt$Surface$1.invoke(Surface.kt:126)
+> 11-13 19:01:38.230 13086 13133 I MY3_Debug: UserRepository.init -> loading initial users from DAO
+> 11-13 19:01:38.231 13086 13133 I MY3_Debug: ProductRepository.init -> loading initial products from DAO
+> 11-13 19:01:38.233 13086 13137 I UserRepository: Initial users loaded: 5
+> 11-13 19:01:38.235 13086 13133 I ProductRepository: Initial products loaded: 8
+  11-13 19:01:38.469  1697  4818 D CoreBackPreview: Window{813a34 u0 com.egon.my3/com.egon.my3.MainActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5669a73, mPriority=0, mIsAnimationCallback=false}
+  11-13 19:01:38.473  1381  1692 D ULogGuard: Monitoring: 4 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+  11-13 19:01:38.500 13086 13090 I com.egon.my3: Compiler allocated 6768KB to compile void android.view.ViewRootImpl.performTraversals()
+  11-13 19:01:38.742  1697  2078 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+  11-13 19:01:39.184 13086 13086 D View    : [ANR Warning]onMeasure time too long, this =androidx.compose.ui.platform.AndroidComposeView{904e5be VFED..... ......I. 0,0-0,0 aid=1073741824}time 
+=711 ms
+
+

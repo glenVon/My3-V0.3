@@ -1,0 +1,13 @@
+# Copia este archivo a `local.properties` (no lo añadas al control de versiones).
+# Sustituye la ruta por tu Android SDK local.
+
+sdk.dir=C:\Users\<TU_USUARIO>\AppData\Local\Android\Sdk
+
+# Alternativamente puedes exportar la variable de entorno ANDROID_HOME:
+# PowerShell (sesión actual):
+#   $env:ANDROID_HOME = 'C:\Users\<TU_USUARIO>\AppData\Local\Android\Sdk'
+# PowerShell (persistente, todos los inicios de sesión):
+#   setx ANDROID_HOME "C:\Users\<TU_USUARIO>\AppData\Local\Android\Sdk"
+# Después de setx, cierra y abre la terminal para que la variable esté disponible.
+
+# Si no sabes la ruta, instala Android SDK (Android Studio) o busca la carpeta 'Sdk' en tu perfil de usuario.

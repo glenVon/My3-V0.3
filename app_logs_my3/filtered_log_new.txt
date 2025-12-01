@@ -1,0 +1,42 @@
+﻿
+> 11-13 01:09:13.171 22793 22793 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:09:13.171 22793 22793 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+> 11-13 01:09:30.045 23422 23422 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:09:30.045 23422 23422 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+> 11-13 01:13:03.451 23984 23984 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:13:03.451 23984 23984 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+> 11-13 01:15:01.950 24092 24092 E AndroidRuntime: kotlin.NotImplementedError: An operation is not implemented: Not yet implemented
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at com.egon.my3.presentation.screens.ProductListScreenKt.ProductCard(ProductListScreen.kt:138)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:181)
+  11-13 01:15:01.950 24092 24092 E AndroidRuntime: 	at 
+com.egon.my3.presentation.screens.ProductListScreenKt$ProductListScreen$2$invoke$lambda$4$lambda$3$lambda$2$$inlined$items$default$4.invoke(LazyDsl.kt:178)
+> 11-13 19:01:38.230 13086 13133 I MY3_Debug: UserRepository.init -> loading initial users from DAO
+> 11-13 19:01:38.231 13086 13133 I MY3_Debug: ProductRepository.init -> loading initial products from DAO
+> 11-13 19:01:38.233 13086 13137 I UserRepository: Initial users loaded: 5
+> 11-13 19:01:38.235 13086 13133 I ProductRepository: Initial products loaded: 8
+  11-13 19:01:38.469  1697  4818 D CoreBackPreview: Window{813a34 u0 com.egon.my3/com.egon.my3.MainActivity}: Setting back callback 
+OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5669a73, mPriority=0, mIsAnimationCallback=false}
+  11-13 19:01:38.473  1381  1692 D ULogGuard: Monitoring: 4 threads, 0 requests, 0 time-bombs; 1 guards. ResetFlags = 0x7
+  11-13 19:01:38.500 13086 13090 I com.egon.my3: Compiler allocated 6768KB to compile void android.view.ViewRootImpl.performTraversals()
+> 11-13 19:02:35.689 13517 13551 I MY3_Debug: UserRepository.init -> loading initial users from DAO
+> 11-13 19:02:35.690 13517 13552 I MY3_Debug: ProductRepository.init -> loading initial products from DAO
+> 11-13 19:02:35.693 13517 13552 I UserRepository: Initial users loaded: 5
+> 11-13 19:02:35.696 13517 13552 I ProductRepository: Initial products loaded: 8
+  11-13 19:02:35.732   939   958 I mtkpower@impl: [setMode] type:5, enabled:0
+  11-13 19:02:35.734  1697  1731 E ApplicationHelper: Fail to get PackageManager
+  11-13 19:02:35.734  1697  2056 I MiuiNetworkPolicy: updateUidState uid = 10307, uidState = 12
+
+
